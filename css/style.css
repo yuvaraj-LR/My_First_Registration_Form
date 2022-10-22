@@ -1,0 +1,77 @@
+/* This is the style page for both the login and register page. */
+
+body {
+    padding: 0;
+    margin: 30px;
+    /* background-image: url('/img/bg-img10.png'); */
+    background: url(/img/bg-img10.png) no-repeat fixed center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    display: inline-block;
+    height: 100vh;
+    max-height: 1000px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: gray;
+    margin-top: 10%;
+    opacity: 0.6;
+    margin-left: 50%;
+    border: 1px solid black;
+    width: 280px;
+    text-align: center;
+}
+
+.background {
+    margin: 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.background h1 {
+    color: chartreuse;
+}
+
+.background a {
+    color: crimson;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.background a:hover {
+    opacity: 1;
+}
+
+.background #errorBox {
+    font-size: 20px;
+    background-color: rgb(255, 255, 0);
+    color: #000;
+}
+
+.btn {
+    background-color: #800080;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    width: fit-content;
+    opacity: 1;
+}
+
+.btn:hover {
+    background-color: #ff00ff;
+}
+
+.profile {
+    width: 40%;
+}
+
+.form1 input[type="text" i],
+.form1 input[type="password" i],
+.form1 input[type="email" i] {
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
